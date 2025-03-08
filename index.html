@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafíos de Programación</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafíos de Programación</h1>
+        
+        <div class="output-section">
+            <h2>Lenguajes de Programación</h2>
+            <div class="button-group">
+                <button id="mostrarLenguajesBtn">Mostrar Lenguajes</button>
+                <button id="mostrarLenguajesInversoBtn">Mostrar Inverso</button>
+            </div>
+            <div id="lenguajesOutput" class="output-content"></div>
+        </div>
+
+        <div class="output-section">
+            <h2>Operaciones con Números</h2>
+            <input type="text" id="numerosInput" placeholder="Ingresa números separados por comas" class="full-width-input">
+            
+            <div class="button-grid">
+                <button id="calcularPromedioBtn">Promedio</button>
+                <button id="calcularMedianaBtn">Mediana</button>
+                <button id="calcularModaBtn">Moda</button>
+                <button id="calcularDesviacionBtn">Desviación</button>
+                <button id="calcularFactorialBtn">Factorial</button>
+                <button id="mostrarMinMaxBtn">Min/Max</button>
+                <button id="sumarElementosBtn">Sumar</button>
+                <button id="cuadrarNumerosBtn">Cuadrar</button>
+            </div>
+            
+            <div id="numerosOutput" class="output-content"></div>
+        </div>
+
+        <button id="resetBtn" class="reset-button">Reiniciar Sistema</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
