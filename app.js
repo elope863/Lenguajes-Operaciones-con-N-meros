@@ -1,6 +1,6 @@
 // app.js
 
-let listaGenerica; // Declare listaGenerica without initialization
+
 
 
 // Crear una lista de lenguajes de programación llamada lenguagesDeProgramacion.
