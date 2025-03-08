@@ -102,7 +102,15 @@ function cuadrarNumeros(listaNumeros) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Event listeners for buttons
+function generarLinkGitHub() {
+    const link = "https://github.com/elope863/Lenguajes-Operaciones-con-N-meros.git";
+    const output = document.getElementById('githubLinkOutput');
+    output.innerHTML = `GitHub Link: <a href="${link}" target="_blank">${link}</a>`;
+}
+
+// Event listener for the GitHub link button
+document.getElementById('generarLinkBtn').addEventListener('click', generarLinkGitHub);
+
     document.getElementById('mostrarLenguajesBtn').addEventListener('click', mostrarLenguajes);
     document.getElementById('mostrarLenguajesInversoBtn').addEventListener('click', mostrarLenguajesInverso);
     document.getElementById('calcularPromedioBtn').addEventListener('click', () => {
