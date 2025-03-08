@@ -1,10 +1,11 @@
 // app.js
 
-// Crear una lista vacía con el nombre listaGenerica.
-let listaGenerica = [];
+let listaGenerica; // Declare listaGenerica without initialization
+
 
 // Crear una lista de lenguajes de programación llamada lenguagesDeProgramacion.
-let lenguagesDeProgramacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+let lenguagesDeProgramacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python', 'Ruby', 'Java', 'GoLang', 'Swift', 'Rust'];
+
 
 // Agregar a la lista lenguagesDeProgramacion los siguientes elementos.
 lenguagesDeProgramacion.push('Java', 'Ruby', 'GoLang');
@@ -102,14 +103,7 @@ function cuadrarNumeros(listaNumeros) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-function generarLinkGitHub() {
-    const link = "https://github.com/elope863/Lenguajes-Operaciones-con-N-meros.git";
-    const output = document.getElementById('githubLinkOutput');
-    output.innerHTML = `GitHub Link: <a href="${link}" target="_blank">${link}</a>`;
-}
 
-// Event listener for the GitHub link button
-document.getElementById('generarLinkBtn').addEventListener('click', generarLinkGitHub);
 
     document.getElementById('mostrarLenguajesBtn').addEventListener('click', mostrarLenguajes);
     document.getElementById('mostrarLenguajesInversoBtn').addEventListener('click', mostrarLenguajesInverso);
